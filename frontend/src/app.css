@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  width: 250px;
+}
+
+label {
+  color: tomato;
+  border-bottom: 1px solid tomato;
+  width: max-content;
+  font-size: 14px;
+}
+
+.desc {
+  font-size: 14px;
+}
+
+.star {
+  color: gold;
+}
+
+.username {
+  font-size: 14px;
+}
+
+.date {
+  font-size: 12px;
+}
+
+form {
+  height: 250px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+input,
+textarea {
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-size: 12px;
+  color: rgb(175, 169, 169);
+}
+
+.sbutton {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  background-color: tomato;
+  cursor: pointer;
+}
+
+.button {
+  border: none;
+  color: white;
+  height: 40px;
+  width: 80px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login {
+  background-color: teal;
+  margin-right: 8px;
+}
+
+.logout {
+  background-color: tomato;
+}
+
+.register {
+  background-color: slateblue;
+}
+
+.logout,
+.buttons {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}

@@ -1,0 +1,53 @@
+.registerContainer {
+  height: 280px;
+  width: 300px;
+  padding: 20px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: slateblue;
+}
+
+.rbutton {
+  color: white;
+  background-color: slateblue;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.errorMessage {
+  color: red;
+  text-align: center;
+}
+
+.successMessage {
+  color: teal;
+  text-align: center;
+}
+
+input {
+  padding: 7px;
+}
+
+.cancel {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
